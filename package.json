@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "bignumber": "^1.1.0",
+    "bootstrap": "^5.0.0-beta3",
     "next": "10.0.7",
     "next-routes": "^1.4.2",
     "react": "17.0.1",
