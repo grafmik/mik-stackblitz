@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import { callWeb3 } from '../utils/pancake.js';
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
           Comment ça va? <code className={styles.code}>Moi ça va</code>
         </p>
 
-        <button type="button" className="btn btn-primary">
+        <button type="button" className="btn btn-primary" onClick={callWeb3()}>
           Go go go
         </button>
       </main>
