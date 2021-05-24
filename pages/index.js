@@ -17,7 +17,9 @@ export default function Home() {
           Comment ça va? <code className={styles.code}>Moi ça va</code>
         </p>
 
-        <button type="button">Go go go</button>
+        <button type="button" className="btn btn-primary">
+          Go go go
+        </button>
       </main>
 
       <footer className={styles.footer}>
